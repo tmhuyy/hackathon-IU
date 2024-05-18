@@ -9,7 +9,7 @@ const compression = require('compression')
 const cors = require('cors')
 
 // routes
-const testRouter = require('./routes/testRoutes')
+const testRouter = require('./routes/test.route')
 
 const app = express()
 
