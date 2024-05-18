@@ -51,7 +51,7 @@ app.use('/api/v1/test', testRouter)
 
 app.all('*', (req, res, next) => {
     // next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404))
-    res.status(404).send(`Can't find ${req.originalUrl} on this server!`)
+    res.status(404).send(`Can't find ${req.originalUrl} on  server!`)
 })
 
 module.exports = app
